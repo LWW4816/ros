@@ -1,0 +1,6 @@
+<launch>
+   <node name="topic_publisher" pkg="topic_test"
+         type="topic_publisher.py" output="screen" />
+   <node name="topic_subscriber" pkg="topic_test"
+         type="topic_subscriber.py" output="screen" />
+</launch>
